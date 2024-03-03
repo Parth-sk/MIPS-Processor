@@ -4,35 +4,51 @@ The MIPS Processor (written in python) takes in a binary file dumped by the [MAR
 
 The following instructions have been implemented in the processor:
 
+
 I-fomat:
 
 lui     op-001111
 
 lw      op-100011
+
 sw      op-101011
+
 addi    op-001000
+
 addiu   op-001001
+
 beq     op-000100
+
 bne     op-000101
+
 slti    op-001010
+
 ori     op-001101
+
 
 R-format:
 
 slt     op-000000 func-101010
+
 add     op-000000 func-100000
+
 sub	    op-000000 func-100010
+
 mul     op-011100 func-000010
+
 syscall op-000000 func-001100
+
 jr      op-000000 func-001000
 
 
 J-format:
 
 j       op-000010
+
 jal     op-000011
 
 --------------------------------------------------------------------------------------------------------------------------
+
 
 The following registers are being stored.
 
