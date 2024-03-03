@@ -7,6 +7,7 @@ The following instructions have been implemented in the processor:
 I-fomat:
 
 lui     op-001111
+
 lw      op-100011
 sw      op-101011
 addi    op-001000
